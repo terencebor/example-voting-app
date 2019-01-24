@@ -6,8 +6,8 @@ metadata:
         name: voting-app-pod
         app: demo-voting-app
 spec:
-    comtainers:
-    - name: voting_app
+    containers:
+    - name: voting-app
       image: dockersamples/examplevotingapp_vote
       ports:
       - containerPort: 80

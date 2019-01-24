@@ -6,8 +6,8 @@ metadata:
         name: worker-app-pod
         app: demo-voting-app
 spec:
-    comtainers:
-    - name: worker_app
+    containers:
+    - name: worker-app
       image: dockersamples/examplevotingapp_worker
 
 
